@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-color: rgb(13, 13, 24);
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+
+.posicionamento_header {
+    width: 1400 auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posicionamento_header img {
+    width: 90px;
+
+}
+
+header nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+}
+
+header a {
+    color: aliceblue;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+
+h1 {
+    width: 1em;
+    position: absolute;
+    left: -999em;
+    overflow: hidden;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(13 13 24);
+    font-size: 50px;
+    text-align: center;
+    margin: 50px;
+}
+
+.posicionamento_header img {
+
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    left: 13px;
+    top: 14px;
+}
+
+.banner {
+    background-image: url(../img/caminhao_home.png);
+    width: 100%;
+    height: calc(80vh - 70px);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    background-position: center;
+}
+
+.banner_conteudo {
+    height: 200px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    font-size: 45px;
+}
+
+
+.oferta {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: rgb(7, 7, 27);
+    justify-content: center;
+
+
+}
+
+.oferta {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.oferta {
+    position: absolute;
+    width: 435.95px;
+    height: 471px;
+    left: 210.84px;
+    top: 878px;
+}
+
+.botoes {
+    position: absolute;
+    width: 235px;
+    height: 55px;
+    left: 132px;
+    top: 450px;
+}
+
+.ofertas1 {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.card {
+    width: 300px;
+
+
+
+}
+
+.card1 {
+    background-color: rgb(20, 6, 61);
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    color: azure;
+
+
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.card2>img {
+    width: 250px;
+
+}
+
+.catpromocao {
+    color: gold;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.infor {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.cat_promo {
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    justify-content: space-between;
+
+
+
+
+}
+
+.promo {
+    background-color: rgb(11, 9, 58);
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+
+}
+
+.promocao1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.promocao1>img {
+    width: 180px;
+
+
+}
+
+.promocao1 {
+    background-color: rgb(32, 12, 158);
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    color: azure;
+
+}
+
+.noticias {
+    width: 60%;
+    float: center;
+    display: flex;
+    flex-direction: row;
+   margin: 15px;
+    justify-content: space-between
+}
+
+.not1>img {
+    width: 200px;
+
+}
+
+.not1 {
+
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    align-items: cente;
+    margin: 15px;
+
+
+}
